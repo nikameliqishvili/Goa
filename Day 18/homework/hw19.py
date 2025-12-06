@@ -1,6 +1,6 @@
 #
-my_list = ["apple", "banana", "cherry"]
+list = ["apple", "banana", "cherry"]
 
-print( my_list[0] )
-print( my_list[1] )
-print( my_list[2] )
+print( list[0] )
+print( list[1] )
+print( list[2] )
