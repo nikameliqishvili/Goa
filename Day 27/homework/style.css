@@ -1,0 +1,11 @@
+h1{
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    color: beige;
+    background-color: blue;
+    border: 4px yellow solid;
+    text-align: right;
+}
