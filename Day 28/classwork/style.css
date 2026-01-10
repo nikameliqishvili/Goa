@@ -1,0 +1,27 @@
+h1{
+    color: color red;
+    background-color: blue;
+    font-size: 19px;
+    text-align: center;
+    border: 6px solid;
+}
+h3{ color: color red;
+    background-color: blue;
+    font-size: 19px;
+    text-align: center;
+    border: 6px solid;
+}
+p{
+    color: color red;
+    background-color: blueviolet;
+    font-size: 19px;
+    text-align: right;
+    border: 6px solid;
+}
+button{
+    color: aqua;
+    background-color: blue;
+    width: 77px;
+    height: 77px;
+    border: 6px;
+}
