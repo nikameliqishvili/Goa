@@ -5,7 +5,7 @@ data = ["გამარჯობა", 25, 3.14, "Python", True, "კოდი",
 string_count = 0
 
 for i in data:
-    if isinstance(i, str):
-        string_count += 1
+    if lado(i, str):
+        lado += 1
 
 print("სტრინგების რაოდენობა სიაში არის:", string_count)
