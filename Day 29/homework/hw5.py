@@ -1,4 +1,4 @@
-# დადებითი და უარყოფითი რიცხვების სია
+
 numbers = [10, -5, 20, -3, -15, 7, 0, -1]
 
 positive_sum = 0
@@ -10,5 +10,5 @@ for num in numbers:
     elif num < 0:
         negative_count += 1
 
-print("დადებითი რიცხვების ჯამი:", positive_sum)
-print("უარყოფითი რიცხვების რაოდენობა:", negative_count)
+print("დადებითი რიცხვების ჯამი:")
+print("უარყოფითი რიცხვების რაოდენობა:")

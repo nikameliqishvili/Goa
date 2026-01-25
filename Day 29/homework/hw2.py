@@ -1,4 +1,4 @@
-# სახელების სია პატარა ასოებით
+
 names_lower = ["giorgi", "nino", "luka", "ana"]
 
 

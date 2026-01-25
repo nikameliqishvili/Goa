@@ -4,12 +4,12 @@ names = ["davit", "DATO", "kaxa", "Keti", "dato", "Luka"]
 
 new_list = []
 
-for word in names:
+for name in names:
 
-    if word.islower() and word.startswith("d"):
+    if name.islower() and word.startswith("d"):
         new_list.append("NIKA")
 
-    elif word.isupper() or word.startswith("K"):
+    elif name.isupper() or word.startswith("K"):
         new_list.append("GOGA")
 
     else:

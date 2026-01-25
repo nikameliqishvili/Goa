@@ -2,8 +2,8 @@
 sentence = input("შეიყვანე წინადადება: ")
 
 words = sentence.split()
-for word in words:
-    print(word.capitalize())
+for i in range(len(words)):
+    print(words[i].capitalize())
 #2
 word = input("შეიყვანე სიტყვა: ")
 

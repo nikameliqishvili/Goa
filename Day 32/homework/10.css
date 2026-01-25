@@ -1,0 +1,26 @@
+li.same {
+  color: purple;
+  background-color: burlywood;
+
+}
+
+
+li.one {
+  color: red;
+  background-color: blueviolet;
+}
+
+li.two {
+  color: blue;
+  background-color: blanchedalmond;
+}
+
+li.three {
+  color: green;
+  background-color: antiquewhite;
+}
+
+li.four {
+  background-color: lightgray;
+}
+
