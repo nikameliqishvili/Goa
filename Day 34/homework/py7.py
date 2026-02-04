@@ -1,11 +1,9 @@
+# შექმენით ფუნქცია. შექმენით რიცხვებით სავსე სია. დათვალეთ თუ რამდენჯერ არის შემდეგი რიცხვი წინაზე მეტი. მაგალითად: თუ მოცემული გვაქვს სია [1, 3, 2, 5, 4], მაშინ უნდა დავპრინტოთ 2, რადგან 3 > 1, და 5 > 2. გამოიყენე ინდექსები. გამოიძახეთ ფუნქცია.
 def count_increments():
     numbers = [1, 3, 2, 5, 4]
     count = 0
-    
-    for i in range(len(numbers) - 1):
-        if numbers[i+1] > numbers[i]:
+    for i in range(1, len(list)):
+        if list[i]>list[i-1]:
             count += 1
-            
-    print(f"შემთხვევების რაოდენობა: {count}")
-
+        print(count)
 count_increments()
