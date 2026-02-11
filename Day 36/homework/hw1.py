@@ -86,6 +86,7 @@ def calculateArea(length, width):
     area = length * width
     print(area)
     return area
+print(calculateArea)
 
 
 # 14) 
