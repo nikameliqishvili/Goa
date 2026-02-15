@@ -1,0 +1,13 @@
+body {
+  height: 100px;
+  background-color: white;
+}
+
+.text-shadow {
+  font-size: 120px;
+  color: black;
+
+
+  text-shadow: 
+    8px 8px 15px rgba(0, 0, 0, 0.4);
+}

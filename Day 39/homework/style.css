@@ -1,0 +1,21 @@
+/* uppercase */
+.uppercase,
+.upper {
+  text-transform: uppercase;
+}
+
+
+.lowercase,
+.lower {
+  text-transform: lowercase;
+}
+
+.capitalize,
+.cap {
+  text-transform: capitalize;
+}
+
+p {
+  font-size: 18px;
+  margin: 8px 0;
+}
