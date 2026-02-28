@@ -1,0 +1,42 @@
+
+.decimal-leading-zero {
+    list-style-type: decimal-leading-zero;
+}
+
+
+.decimal {
+    list-style-type: decimal;
+}
+
+.georgian {
+    list-style-type: georgian;
+}
+
+/* დიდი რომაული რიცხვები */
+.upper-roman {
+    list-style-type: upper-roman;
+}
+
+
+.lower-roman {
+    list-style-type: lower-roman;
+}
+
+
+.upper-alpha {
+    list-style-type: upper-alpha;
+}
+
+
+.lower-alpha {
+    list-style-type: lower-alpha;
+}
+
+
+.armenian {
+    list-style-type: armenian;
+}
+
+.lower-greek {
+    list-style-type: lower-greek;
+}

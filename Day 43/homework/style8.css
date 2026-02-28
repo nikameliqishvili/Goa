@@ -1,0 +1,15 @@
+.cross-list {
+    list-style: none;   
+
+}
+
+.cross-list li {
+    font-size: 18px;
+
+}
+
+.cross-list li::before {
+    content: "✖";
+    color: #e74c3c;     
+
+}

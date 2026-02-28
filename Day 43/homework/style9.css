@@ -1,0 +1,18 @@
+.square-list {
+    list-style: none;  
+
+}
+
+.square-list li {
+    font-size: 18px;
+
+}
+
+
+.square-list li::before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    background-color: #1e8e3e; 
+
+}

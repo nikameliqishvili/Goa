@@ -1,0 +1,23 @@
+table {
+    border-collapse: collapse;
+    width: 600px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+}
+
+th, td,nth-child {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.header {
+    background-color: green;
+    color: black;
+    font-weight: bold;
+}
+
+.highlight {
+    background-color:aqua; 
+    color: black;
+}

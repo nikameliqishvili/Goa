@@ -1,0 +1,14 @@
+.check-list {
+    list-style: none;      
+
+}
+
+.check-list li {
+    font-size: 18px;
+ 
+}
+.check-list li::before {
+    content: "✔";
+    color: #2ecc71;       
+  
+}

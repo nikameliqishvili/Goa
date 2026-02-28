@@ -1,0 +1,72 @@
+body {
+    background-color: #222;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.color-table {
+    border-collapse: collapse;
+    width: 700px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.color-table th,
+.color-table td {
+    border: 2px solid #333;
+    padding: 15px;
+}
+
+/* Header */
+.numbers {
+    background-color: #ffe600;
+}
+.singular {
+    background-color: #f4b400;
+}
+.plural {
+    background-color: #8bc34a;
+}
+
+/* Rows */
+.one {
+    background-color: #ffd966;
+}
+.boy {
+    background-color: #f28c60;
+}
+.boys {
+    background-color: #ffd966;
+}
+
+.two {
+    background-color: #e60000;
+    color: white;
+}
+.man {
+    background-color: #eeeeee;
+}
+.men {
+    background-color: #00a6d6;
+}
+
+.three {
+    background-color: #ffd966;
+}
+.table {
+    background-color: #bdb76b;
+}
+.tables {
+    background-color: #ffd966;
+}
+
+.four {
+    background-color: #9e9e9e;
+}
+.animal {
+    background-color: #b45f06;
+    color: white;
+}
+.animals {
+    background-color: #ffd966;
+}

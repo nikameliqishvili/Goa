@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    padding: 40px;
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+thead {
+    background-color:aqua;
+    color: white;
+}
+
+th, td {
+    padding: 14px 20px;
+    text-align: left;
+}
+
+tbody tr {
+    border-bottom: 1px solid white;
+}
+
+
+tbody tr:nth-child(2) {
+    background-color: white;
+    color: #009879;
+    font-weight: bold;
+}
