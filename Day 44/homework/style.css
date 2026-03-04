@@ -1,0 +1,22 @@
+body {
+    background-color: #dcdcdc;
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    width: 500px;
+    margin: 50px auto;
+}
+
+label {
+    font-weight: bold;
+    font-style: italic;
+    color: #0e7fa6;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}

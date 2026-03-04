@@ -1,0 +1,43 @@
+/* PADDING-ის განმარტება:
+   Padding არის სივრცე ელემენტის შიგთავსსა (ტექსტს) და მის ჩარჩოს (Border) შორის.
+   ის ელემენტს ზრდის შიგნიდან. 
+*/
+
+button {
+    background-color: #e0f2f1;
+    border: 3px solid #00897b; 
+    color: #004d40;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+
+.btn-1 {
+    padding: 4px;
+}
+
+
+.btn-2 {
+    padding: 15px;
+}
+
+
+.btn-3 {
+    padding: 10px 40px;
+}
+
+
+.btn-4 {
+    padding: 2px 60px;
+}
+
+
+.btn-5 {
+    padding: 50px 20px;
+}
+
+
+button:hover {
+    background-color: #00897b;
+    color: white;
+}
