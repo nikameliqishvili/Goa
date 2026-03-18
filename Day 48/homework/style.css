@@ -1,0 +1,113 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background: tomato;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+/* 1 */
+.flex1 {
+    display: flex;
+}
+
+/* 2 */
+.flex2 {
+    display: flex;
+    flex-direction: row;
+}
+
+/*
+row → ელემენტები მიდის მარცხნიდან მარჯვნივ (ჰორიზონტალურად)
+column → ელემენტები მიდის ზემოდან ქვემოთ (ვერტიკალურად)
+*/
+.flex2:hover {
+    flex-direction: column;
+}
+
+/* 3 */
+.flex3 {
+    display: flex;
+    width: 500px;
+    justify-content: space-between; 
+}
+
+/* 4 */
+.flex4 {
+    display: flex;
+    width: 500px;
+    height: 200px;
+    align-items: center; 
+}
+
+/* 5 */
+.flex5 {
+    display: flex;
+    width: 500px;
+    justify-content: flex-end;
+}
+
+/* 6 */
+.flex6 {
+    display: flex;
+    width: 500px;
+    height: 200px;
+    align-items: center;
+}
+
+/* 7 */
+.flex7 {
+    display: flex;
+    width: 500px;
+    height: 200px;
+    align-items: flex-end;
+}
+
+/* 8 */
+.flex8 {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: flex-start;
+}
+
+/* 9 */
+.flex9 {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 300px;
+    align-items: center;
+}
+
+/* 10 */
+.flex10 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* 11 */
+.flex11 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* 12 */
+.flex12 {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    flex-direction: column-reverse;
+    align-items: center;
+}
