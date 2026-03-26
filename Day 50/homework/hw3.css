@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4db3c7;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 30px;
+    width: 260px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h3 {
+    color: #5aaec2;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5aaec2;
+    border: none;
+    color: white;
+
+}
+
+button:hover {
+    background-color: #489aad;
+}
