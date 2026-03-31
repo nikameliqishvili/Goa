@@ -1,0 +1,74 @@
+/* 1) align-self: გამოიყენება ინდივიდუალური ფლექს-ელემენტის გასასწორებლად cross-axis-ზე.
+   მნიშვნელობები: auto (default), flex-start (ზემოთ), flex-end (ქვემოთ), center (შუაში), 
+   baseline (ტექსტის ხაზზე), stretch (გაჭიმვა).
+   მაგალითი 1: როცა გინდა ერთი ღილაკი იყოს ქვემოთ, სხვა დანარჩენი კი ზემოთ.
+   მაგალითი 2: პროფილის სურათის ცენტრირება ტექსტთან მიმართებაში.
+*/
+
+/* 4) flex-grow: განსაზღვრავს ელემენტის უნარს, გაიზარდოს და შეავსოს თავისუფალი ადგილი.
+   მნიშვნელობები: რიცხვითი (0 - არ იზრდება, 1 - იზრდება პროპორციულად).
+*/
+
+/* 10) flex-shrink: განსაზღვრავს ელემენტის შეკუმშვის კოეფიციენტს, როცა ადგილი არ ყოფნის.
+   მნიშვნელობები: 1 (default - იკუმშება), 0 (არ იკუმშება), >1 (უფრო სწრაფად იკუმშება).
+*/
+
+/* ზოგადი სტილები */
+body { font-family: sans-serif; padding: 20px; background: #f0f2f5; }
+.exercise { margin-bottom: 50px; background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.container { display: flex; background: #eee; border: 1px solid #ccc; overflow: hidden; }
+.item { padding: 15px; background: #3498db; color: white; border: 1px solid #2980b9; }
+
+/* დავალება 2 & 3 */
+.ex2-container { height: 300px; align-items: center; } /* დავალება 2: container center-ზეა */
+.ex2-item2 { align-self: flex-start; background: #e74c3c; } /* მეორე ელემენტი ზემოთ */
+
+.ex3-container { height: 400px; }
+.ex3-item1 { align-self: flex-end; }
+.ex3-item2 { align-self: flex-start; }
+.ex3-item3 { align-self: center; }
+.ex3-item4 { align-self: auto; }
+
+/* დავალება 5 */
+.ex5-fixed { width: 100px; }
+.ex5-grow { flex-grow: 1; background: #2ecc71; }
+
+/* დავალება 6: Nav Bar */
+.navbar { display: flex; align-items: center; background: #2c3e50; padding: 10px; border-radius: 5px; }
+.logo img { display: block; }
+.menu { display: flex; flex-grow: 1; list-style: none; justify-content: center; margin: 0; padding: 0; color: white; }
+.menu li { margin: 0 15px; cursor: pointer; }
+.nav-btn { background: #e67e22; border: none; padding: 8px 15px; color: white; border-radius: 4px; }
+
+/* დავალება 7 */
+.ex7-item:hover { background: #9b59b6; transition: 0.3s; }
+.ex7-special:hover { flex-grow: 2; }
+
+/* დავალება 8 & 9 */
+.ex9-1 { flex-basis: 100px; background: #34495e; }
+.ex9-2 { flex-basis: 200px; background: #5d6d7e; }
+.ex9-3 { flex-basis: 300px; background: #85929e; }
+.ex9-4 { flex-basis: 150px; background: #aeb6bf; }
+
+/* დავალება 11 & 12 */
+.ex11-container { width: 400px; }
+.ex11-no-shrink { flex-shrink: 0; background: #e74c3c; } 
+.ex12-s1 { flex-shrink: 1; flex-basis: 200px; }
+.ex12-s2 { flex-shrink: 2; flex-basis: 200px; }
+.ex12-s3 { flex-shrink: 3; flex-basis: 200px; }
+
+/* დავალება 13 */
+.ex13-container { width: 400px; flex-wrap: wrap; }
+.ex13-item { flex-basis: 300px; flex-shrink: 0; background: #16a085; }
+
+/* დავალება 14 */
+.ex14-container { width: 500px; }
+.ex14-item-stable { flex-shrink: 0.1; flex-basis: 250px; }
+
+/* დავალება 16 */
+/* flex: grow shrink basis */
+.ex16-all { flex: 1 0 150px; background: #f1c40f; color: black; }
+
+/* დავალება 17 18 */
+.ex18-fixed { flex: 0 0 150px; background: #d35400; }
+.ex18-adaptive { flex: 1 1 auto; background: #27ae60; }
