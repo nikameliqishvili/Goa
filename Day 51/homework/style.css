@@ -19,7 +19,7 @@ body { font-family: sans-serif; padding: 20px; background: #f0f2f5; }
 .container { display: flex; background: #eee; border: 1px solid #ccc; overflow: hidden; }
 .item { padding: 15px; background: #3498db; color: white; border: 1px solid #2980b9; }
 
-/* დავალება 2 & 3 */
+/* დავალება 2  3 */
 .ex2-container { height: 300px; align-items: center; } /* დავალება 2: container center-ზეა */
 .ex2-item2 { align-self: flex-start; background: #e74c3c; } /* მეორე ელემენტი ზემოთ */
 
