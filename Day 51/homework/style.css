@@ -50,7 +50,7 @@ body { font-family: sans-serif; padding: 20px; background: #f0f2f5; }
 .ex9-3 { flex-basis: 300px; background: #85929e; }
 .ex9-4 { flex-basis: 150px; background: #aeb6bf; }
 
-/* დავალება 11 & 12 */
+/* დავალება 11  12 */
 .ex11-container { width: 400px; }
 .ex11-no-shrink { flex-shrink: 0; background: #e74c3c; } 
 .ex12-s1 { flex-shrink: 1; flex-basis: 200px; }
