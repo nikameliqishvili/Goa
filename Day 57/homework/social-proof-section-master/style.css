@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f0f5;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.left h1 {
+    color: #5a2a63;
+    font-size: 40px;
+}
+
+.left p {
+    color: gray;
+    max-width: 400px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.rating {
+    background: #eee;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    padding: 50px 80px;
+}
+
+.card {
+    background: #5a2a63;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user h4 {
+    margin: 0;
+}
+
+.user span {
+    font-size: 12px;
+    color: pink;
+}
